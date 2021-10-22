@@ -1,0 +1,10 @@
+[StartCode]
+
+int album = 52;
+int row = 3;            
+int filledRow =  album / row;
+int emptyRow = album % row;
+
+Console.Write(filledRow + " рядов" + " и " + emptyRow + " картинa");
+
+[EndCode]
